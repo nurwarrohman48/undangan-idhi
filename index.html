@@ -640,38 +640,6 @@
         </div>
       </div>
     </section>
-	  
-    <section id="rsvp">
-      <div class="section-card">
-        <h2 class="section-title">Ucapan & Doa</h2>
-        <p class="section-subtitle">Pilih konfirmasi kehadiran, lalu tulis ucapan dan doa Anda untuk kedua mempelai.</p>
-
-        <form onsubmit="addWish(event)">
-          <input id="wishName" type="text" placeholder="Nama Anda" required>
-
-          <input id="attendanceValue" type="hidden" required>
-          <div class="rsvp-icons">
-            <button type="button" class="rsvp-option" onclick="selectAttendance('Hadir', this)">
-              <span class="icon">✅</span>
-              Hadir
-            </button>
-            <button type="button" class="rsvp-option" onclick="selectAttendance('Tidak Hadir', this)">
-              <span class="icon">🙏</span>
-              Tidak Hadir
-            </button>
-            <button type="button" class="rsvp-option" onclick="selectAttendance('Ragu', this)">
-              <span class="icon">❔</span>
-              Ragu
-            </button>
-          </div>
-
-          <textarea id="wishMessage" rows="3" placeholder="Tulis ucapan atau doa" required></textarea>
-          <button class="btn btn-primary" type="submit">Kirim Ucapan</button>
-        </form>
-
-        <div id="wishList" style="margin-top:24px; text-align:left;"></div>
-      </div>
-    </section>
 
     <section>
       <div class="section-card">
